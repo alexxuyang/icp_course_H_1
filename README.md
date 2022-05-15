@@ -1,3 +1,5 @@
+本代码库，没有考虑任何权限、Owner相关的设定，仅为了完成actor创建多个actor class
+
 定义一个LenthyLogger.mo，是一个actor class，由它引用ic-logger/Logger。
 
 主合约是由MyLogger定义，它里面定义了一个loggers，保存LenthyLogger的数组，空间不够则继续创建新的LenthyLogger。
