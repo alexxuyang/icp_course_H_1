@@ -4,8 +4,8 @@
 
 这三者的关系如下：
 
-MyLogger(1) -> LenthyLogger(n)
-LenthyLogger(1) -> ic-logger/Logger(1)
+MyLogger(1) -> LenthyLogger(n). 
+LenthyLogger(1) -> ic-logger/Logger(1). 
 
 LenthyLogger: actor class
 MyLogger: actor
