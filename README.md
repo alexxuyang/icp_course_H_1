@@ -24,4 +24,4 @@ roll_over是内部函数，由它实际来创建LenthyLogger的actor class。[�
 
 下面是我在本地的一些测试配图
 
-本地
+[本地candid UI](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/1.png)
