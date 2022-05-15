@@ -24,4 +24,24 @@ roll_over是内部函数，由它实际来创建LenthyLogger的actor class。[�
 
 下面是我在本地的一些测试配图
 
-[本地candid UI](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/1.png)
+
+本地candid UI
+![本地candid UI](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/1.png)
+
+第一次添加五个元素
+![第一次添加五个元素](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/2.png)
+
+第二次添加八个元素
+![第二次添加八个元素](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/3.png)
+
+使用view接口查看单一元素
+![使用view接口查看单一元素](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/4.png)
+
+使用view接口查看跨越多个logger实例的日志
+![使用view接口查看跨越多个logger实例的日志](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/5.png)
+
+使用view入参越界报错
+![使用view入参越界报错](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/6.png)
+
+使用print_info在后台打印调试信息
+![使用print_info在后台打印调试信息](https://github.com/alexxuyang/icp_course_H_1/blob/main/images/7.png)
