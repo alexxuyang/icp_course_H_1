@@ -18,7 +18,7 @@ actor {
     };
 
     // count = PAGE_SIZE * (page - 1) + offset
-    var PAGE_SIZE : Nat = 4;
+    var PAGE_SIZE : Nat = 100;
     var page : Nat = 0; // total logger instances count
     var count : Nat = 0; // total log count
     var offset : Nat = 0; // index in current page

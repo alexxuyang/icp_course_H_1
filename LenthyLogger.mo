@@ -12,9 +12,7 @@ import Logger "mo:ic-logger/Logger";
 
 actor class LenthyLogger() {
 
-	var PAGE_SIZE = 4;
-
-	stable var state : Logger.State<Text> = Logger.new<Text>(0, ?PAGE_SIZE);
+	stable var state : Logger.State<Text> = Logger.new<Text>(0, null);
 	let logger = Logger.Logger<Text>(state);
 
 	public shared (msg) func append(msgs: [Text]) {
